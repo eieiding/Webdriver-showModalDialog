@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<title>Parent Window</title>
+
+<script type="text/javascript" language="javascript">
+
+   function openPopUpWithSize(theURL, title, heightInPX, widthInPX)
+   {
+	   window.showModalDialog(theURL, title, 'dialogHeight=' + heightInPX + 'px;dialogWidth='+ widthInPX + 'px');
+   }
+</script>
+
+<body>
+
+<div>
+<input type="button" id="OpenPopupButton" value="Open Modal Popup" onclick="openPopUpWithSize('child.htm', 'Simple Modal Popup Example', 400, 500);" />
+</div>
+</body>
+</html>
+
