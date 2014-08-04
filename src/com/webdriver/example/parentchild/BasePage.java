@@ -2,8 +2,6 @@ package com.webdriver.example.parentchild;
 
 import java.util.Set;
 import org.openqa.selenium.WebDriver;
-
-
 import com.google.common.base.Predicate;
 
 /**
